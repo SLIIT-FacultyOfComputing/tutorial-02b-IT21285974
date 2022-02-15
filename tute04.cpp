@@ -41,5 +41,5 @@ long Factorial(int no)//find the factorial of a no
 }
 long nCr(int n, int r)// get the final result
 {
-    return Factorial(n) / Factorial(n - r);
+    return Factorial(n) / Factorial(r)*(Factorial(n-r));
 }
